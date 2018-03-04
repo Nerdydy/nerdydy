@@ -25,10 +25,7 @@
                         @Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "sidebar-brand" })
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-fw fa-folder"></i> Page one</a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-file-o"></i> Second page</a>
+                        @Html.ActionLink("About", "About", "Home", new { area = "" }, new { @class = "sidebar-brand" })
                     </li>
 
                     //foreach "game":
@@ -36,15 +33,34 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="gameIcon" style="background: url(../../GameIcons/59bec4742408c_rainbow_six_siege_logo_by_jmk_prime-.ico)"></span> Rainbow 6 <span class="arrow"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li class="dropdown-header"><b>Dropdown heading</b></li>
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li><a href="#">Separated link</a></li>
-                            <li><a href="#">One more separated link</a></li>
+                            <li class="dropdown-header"><b>Content</b></li>
+                            <li><a href="#">Videos</a></li>
+                            <li><a href="#">Screenshots</a></li>
                         </ul>
                     </li>
-                }                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="gameIcon" style="background: url(../../GameIcons/59bec4742408c_rainbow_six_siege_logo_by_jmk_prime-.ico)"></span> PUBG <span class="arrow"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li class="dropdown-header"><b>Content</b></li>
+                            <li><a href="#">Videos</a></li>
+                            <li><a href="#">Screenshots</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="gameIcon" style="background: url(../../GameIcons/59bec4742408c_rainbow_six_siege_logo_by_jmk_prime-.ico)"></span> Rocket League <span class="arrow"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li class="dropdown-header"><b>Content</b></li>
+                            <li><a href="#">Videos</a></li>
+                            <li><a href="#">Screenshots</a></li>
+                        </ul>
+                    </li>
+                }
+                else {
+                    // CRUD SITES
+
+                }
+
+
                 @Html.Partial("_LoginPartial")
             </ul>
         </nav>
