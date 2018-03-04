@@ -207,6 +207,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="GameIcons\59bec4742408c_rainbow_six_siege_logo_by_jmk_prime-.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Images\logoTriangle.png" />
@@ -227,6 +228,9 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="SonstigeDateien\DataModel.png" />
+    <Content Include="SonstigeDateien\nerdydy.sql" />
+    <Content Include="SonstigeDateien\nerdydy_002.sql" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -261,6 +265,8 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="SonstigeDateien\nerdydy.EAP" />
+    <Content Include="SonstigeDateien\nerdydy_002.EAP" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

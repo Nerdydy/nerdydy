@@ -22,3 +22,13 @@ select,
 textarea {
     max-width: 280px;
 }
+
+
+
+/* Additonal Style things */
+
+.gameIcon {
+    height: 20px;
+    width: 20px;
+    display: block;
+}
