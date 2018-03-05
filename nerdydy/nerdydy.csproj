@@ -208,12 +208,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\ApplicationUser.cs" />
+    <Compile Include="Models\DbInitializer.cs" />
     <Compile Include="Models\Game.cs" />
     <Compile Include="Models\GameMedia.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MediaType.cs" />
-    <Compile Include="Models\nerdydyModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\GameMediaViewModel.cs" />
@@ -299,6 +300,15 @@
     <Content Include="Views\Game\_Form.cshtml" />
     <Content Include="Views\GameMedia\_Form.cshtml" />
     <Content Include="Views\MediaType\_Form.cshtml" />
+    <Content Include="Views\SideBar\Rainbow6\stats.cshtml" />
+    <Content Include="Views\SideBar\Rainbow6\screenshots.cshtml" />
+    <Content Include="Views\SideBar\Rainbow6\videos.cshtml" />
+    <Content Include="Views\SideBar\PUBG\videos.cshtml" />
+    <Content Include="Views\SideBar\PUBG\screenshots.cshtml" />
+    <Content Include="Views\SideBar\PUBG\stats.cshtml" />
+    <Content Include="Views\SideBar\RocketLeague\videos.cshtml" />
+    <Content Include="Views\SideBar\RocketLeague\screenshots.cshtml" />
+    <Content Include="Views\SideBar\RocketLeague\stats.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

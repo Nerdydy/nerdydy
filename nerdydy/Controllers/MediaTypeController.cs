@@ -12,7 +12,7 @@ namespace nerdydy.Controllers
 {
     public class MediaTypeController : Controller
     {
-        private nerdydyModels db = new nerdydyModels();
+        private ApplicationDbContext db = new ApplicationDbContext();
 
         // GET: MediaType
         public ActionResult Index()

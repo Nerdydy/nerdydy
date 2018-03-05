@@ -12,7 +12,7 @@ namespace nerdydy.Controllers
 {
     public class GameMediaController : Controller
     {
-        private nerdydyModels db = new nerdydyModels();
+        private ApplicationDbContext db = new ApplicationDbContext();
 
         // GET: GameMedia
         public ActionResult Index()
